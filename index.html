@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Bogalho Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">About</a>
+        <a href="#news">Projects</a>
+        <a href="#contact">Contact</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <section class="container">
+        <div class="introduction">
+            <h1>Hi, I'm Antonio Bogalho.</h1>
+            <p id="iparagraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+            </p>
+            <button type="button">View My Workk</button>
+        </div>
+        <img src="images/antonio-Photoroom.png" id="potrait" alt="Antonio Bogalho Portrait">
+    </section>
+
+    <div class="Separator"></div>
+
+    <section class="container">
+        <div class="introduction">
+            <h2>Self-Calendar</h2>
+            <p id="w-paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+            </p>
+            <button type="button">Self-Calendar</button>
+            <button type="button">Agile</button>
+            <button type="button">UI Design</button>
+        </div>
+        <img src="images/Self-Calendar Logo.jpg" id="Self-Calendar-logo" alt="Self-Calendar Logo">
+    </section>
+
+    <div class="Separator" id="separator2"></div>
+
+    <section class="container" id="contactcontainer">
+        <div class="introduction" id="contactdiv">
+            <h3 id="contactme">Contact Me</h3>
+            <div class="container" id="formbox">
+                <form action="action_page.php">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Email Adress</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email adress..">
+                    <label for="subject">Enquires</label>
+                    <textarea id="subject" name="subject" placeholder="Write your enquires.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit" id="submitbutton">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer"></div>
+</body>
+</html>
