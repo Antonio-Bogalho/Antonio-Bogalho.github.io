@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid red;
+    border: solid re
 }
 
 body {
@@ -33,8 +33,30 @@ body {
     margin-left: 30px;
     margin-top: 50px;
 }
+.introduction2 button {
+    background-color: #0b0c0f;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    border: solid white;
+    margin-left: 30px;
+    margin-top: 50px;
+    }
+.introduction2 {
+    text-align: left;
+    font-size: 30px;
+    max-width: 60%;
+    margin-top: 10%;
+}
 
 .introduction button:hover {
+    background-color: #201c34;
+    border: solid white;
+}
+.introduction2 button:hover {
     background-color: #201c34;
     border: solid white;
 }
@@ -56,7 +78,7 @@ body {
     padding: 20px;
     margin: 0 auto;
     max-width: 70%;
-    height: 60vh;
+    height: 70vh;
 }
 
 .Separator {
