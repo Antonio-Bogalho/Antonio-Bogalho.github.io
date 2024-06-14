@@ -4,45 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antonio Bogalho Portfolio</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">About</a>
-        <a href="#news">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#topcontainer" class="active">About</a>
+        <a href="#separator1">Projects</a>
+        <a href="#separator2">Contact</a>
         
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
 
-    <section class="container">
+    <section class="container" id="topcontainer">
         <div class="introduction">
-            <h1>Hi, I'm Antonio Bogalho.</h1>
-            <p id="iparagraph">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
-            </p>
-            <button type="button">View My Work</button>
+            <h1>Hi, I'm Antonio Bogalho</h1>
+            <p id="iparagraph"> An enthusiastic self-taught Web/Android developer that is always striving to learn new skills and gain more experience</p> 
+            <a href="#separator1"><button type="button">View My Work</button></a>
         </div>
         <img src="images/antonio-Photoroom.png" id="potrait" alt="Antonio Bogalho Portrait">
     </section>
 
-    <div class="Separator"></div>
+    <div class="Separator" id="separator1"></div>
 
     <section class="container">
         <div class="introduction2">
             <h2>Self-Calendar</h2>
-            <p id="w-paragraph">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
-            </p>
-            <button type="button">Self-Calendar</button>
+            <p id="w-paragraph"> Currently working in a small team to develop a self-improvement web/android application that provides detailed tracking of your exercise,
+                 calorie intake and lets you neatly organize the information in a highly customisable calendar.</p>
+            <button type="button">Web/Android Development</button>
             <button type="button">Agile</button>
             <button type="button">UI Design</button>
         </div>
@@ -55,14 +47,14 @@
         <div class="introduction" id="contactdiv">
             <h3 id="contactme">Contact Me</h3>
             <div class="container" id="formbox">
-                <form action="action_page.php">
+                <form action="mailto:antoniodudas911@gmail.com" method="post" enctype="text/plain">
                     <label for="fname">Full Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="fullname" placeholder="Your name..">
 
                     <label for="lname">Email Adress</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your email adress..">
+                    <input type="text" id="lname" name="emailadress" placeholder="Your email adress..">
                     <label for="subject">Enquires</label>
-                    <textarea id="subject" name="subject" placeholder="Write your enquires.." style="height:200px"></textarea>
+                    <textarea id="subject" name="enquire" placeholder="Write your enquires.." style="height:200px"></textarea>
 
                     <input type="submit" value="Submit" id="submitbutton">
                 </form>
